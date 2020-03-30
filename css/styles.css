@@ -10004,7 +10004,7 @@ hr.light {
   color: #9b9b9b;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #9b9b9b !important;
+  color: #dd2c00 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10015,14 +10015,14 @@ hr.light {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: rgb(170, 170, 170);
+    color: rgb(228, 74, 13);
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.76);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(170, 170, 170);
+    color: rgb(212, 90, 8);
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10076,7 +10076,68 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
-
+header.Event {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(29, 29, 29, 0.8) 0%, rgba(29, 29, 29, 0.8) 100%), url("../assets/img/f11.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.Event h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.Event {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.Event p {
+    font-size: 1.15rem;
+  }
+  header.Event h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.Event h1 {
+    font-size: 3.5rem;
+  }
+}
+header.Not {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(29, 29, 29, 0.8) 0%, rgba(29, 29, 29, 0.8) 100%), url("../assets/img/fond1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.Not h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.Not {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.Not p {
+    font-size: 1.15rem;
+  }
+  header.Not h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.Not h1 {
+    font-size: 3.5rem;
+  }
+}
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
 }
