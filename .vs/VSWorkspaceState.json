@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\vistas"
   ],
   "PreviewInSolutionExplorer": false
 }
